@@ -35,6 +35,13 @@
     "test-comp-e2e": {
       "tags": [],
       "implicitDependencies": ["test-comp"]
+    },
+    "website": {
+      "tags": []
+    },
+    "website-e2e": {
+      "tags": [],
+      "implicitDependencies": ["website"]
     }
   }
 }
