@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@marzooq/lib/portfolio": ["libs/lib/portfolio/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -19,6 +19,23 @@
     }
   },
   "projects": {
+    "lib-portfolio": {
+      "tags": []
+    },
+    "portfolio": {
+      "tags": []
+    },
+    "portfolio-e2e": {
+      "tags": [],
+      "implicitDependencies": ["portfolio"]
+    },
+    "test-comp": {
+      "tags": []
+    },
+    "test-comp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["test-comp"]
+    },
     "website": {
       "tags": []
     },
